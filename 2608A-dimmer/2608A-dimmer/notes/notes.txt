@@ -1,0 +1,1 @@
+sudo apt install libvulkan-dev libx11-dev libxfixes-dev libxext-dev

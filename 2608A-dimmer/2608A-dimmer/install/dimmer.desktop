@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Dimmer
+Exec=/usr/local/dimmer/dimmer
+Icon=/usr/local/dimmer/dimmer.png
+Terminal=false
