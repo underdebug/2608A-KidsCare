@@ -1,0 +1,15 @@
+[Unit]
+Description=Screenshot receiver (saves incoming PNGs)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__USER__
+Group=__USER__
+ExecStart=/usr/local/screenshot-receiver/run-receiver.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
