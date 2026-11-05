@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Dimmer
+Comment=Screen Dimmer
+Exec=/usr/local/dimmer/dimmer
+Icon=/usr/local/dimmer/dimmer.png
+Terminal=false
+StartupNotify=false
+DBusActivatable=false
+Categories=Utility;
